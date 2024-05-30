@@ -1,0 +1,24 @@
+{% extends '../base.html' %}
+
+{% block title %}course detail{% endblock %}
+
+
+{% block content %}
+
+<div class="container pt-5 pb-5">
+  <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="#">Home</a></li>
+        <li class="breadcrumb-item"><a href="#">Courses</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Python Basics</li>
+      </ol>
+  </nav>
+  <h1 class="mb-5">Python Basics</h1>
+  <div class="list-group">
+      <a href="#" class="list-group-item list-group-item-action">1. Introduction</a>
+      <a href="#" class="list-group-item list-group-item-action">2. Insstal Python</a>
+      <a href="#" class="list-group-item list-group-item-action">3. Hello, World</a>
+  </div>
+</div>
+
+{% endblock %}
